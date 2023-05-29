@@ -21,12 +21,20 @@ Verified Commits on GPG Key
     ![Aquí la descripción de la imagen por si no carga](PASO5.png)
 15. Ahora se debe configurar el commit para que sea firmado por defecto `git config --global commit.gpgsign true`
 16. Ahora se debe configurar el siguiente parámetro `git config --global tag.gpgsign true`
-17. Ahora se debe configurar el commit para que sea firmado por defecto `git config --global push.gpgsign true`
-18. Ahora se debe configurar el commit para que sea firmado por defecto `git config --global merge.verifySignatures true`
-19. Ahora se debe configurar la ruta de GPG `git config --global gpg.program "C:\Program Files (x86)\GnuPG\bin\gpg.exe"` Para conocer la ruta se debe ejecutar el siguiente comando `where gpg`
+17. Ahora se debe configurar el commit para que sea firmado por defecto `git config --global merge.verifySignatures true`
+18. Ahora se debe configurar la ruta de GPG `git config --global gpg.program "C:\Program Files (x86)\GnuPG\bin\gpg.exe"` Para conocer la ruta se debe ejecutar el siguiente comando `where gpg`
     ![Aquí la descripción de la imagen por si no carga](PASO6.png)
-20. Finalmente la lleve GPG se debe agregar en GitHub o Gitlab, para ello se debe copiar el contenido del paso 10 y pegarlo en la configuración de la cuenta.
-21. 
+19. Finalmente la lleve GPG se debe agregar en GitHub o Gitlab, para ello se debe copiar el contenido del paso 10 y pegarlo en la configuración de la cuenta.
+    ![Aquí la descripción de la imagen por si no carga](PASO7.png)
+    Y para Gitlab 🐈
+    ![Aquí la descripción de la imagen por si no carga](PASO8.png)
+20. Ahora se debe crear un repositorio en GitHub o Gitlab y clonarlo en local.
+21. Configuración de la firma con el IDE de gusto, en este caso IntelliJ IDEA.
+    ![Aquí la descripción de la imagen por si no carga](PASO9.png)
+22. Ahora se debe crear un archivo de texto con el nombre `README.md` y agregar el contenido que se desee.
+23. Y probamos el commit con la firma `git commit -S -m "Prueba de firma"` luego pedirá la contraseña de la llave GPG.
+    
+24. 
 
 
 ## Referencias: 
