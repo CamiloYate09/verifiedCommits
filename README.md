@@ -32,9 +32,9 @@ Verified Commits on GPG Key
 21. Configuración de la firma con el IDE de gusto, en este caso IntelliJ IDEA.
     ![Aquí la descripción de la imagen por si no carga](PASO9.png)
 22. Ahora se debe crear un archivo de texto con el nombre `README.md` y agregar el contenido que se desee.
-23. Y probamos el commit con la firma `git commit -S -m "Prueba de firma"` luego pedirá la contraseña de la llave GPG.
-    
-24. 
+23. Y probamos el commit con la firma `git commit -S -m "Prueba de firma"` y un Push al repositorio remoto luego pedirá la contraseña de la llave GPG.
+24. Verificamos en el repositorio remoto, que todos nuestro commit´s estén firmados.
+    ![Aquí la descripción de la imagen por si no carga](PASO10.png)
 
 
 ## Referencias: 
